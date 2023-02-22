@@ -59,6 +59,7 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem "simple_form", github: "heartcombo/simple_form"
 end
 
 gem 'rspec-rails', group: [ :test ]
